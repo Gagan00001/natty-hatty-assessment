@@ -28,48 +28,6 @@ function Invitation() {
       innerVal: "You",
     },
   ];
-  const data = [
-    {
-      val: "Leslie Alexander updated her",
-      innerVal: "Account Type",
-      date: "5 october 11:46 AM",
-    },
-    {
-      val: "John Smith removed Mark Fleix from",
-      innerVal: "Family member",
-      date: "5 October 10:01 AM",
-    },
-    {
-      val: "Leslie Alexander updated her",
-      innerVal: "Account Type",
-      date: "4 October 11:00 AM",
-    },
-    {
-      val: "John Smith removed Mark Fleix from",
-      innerVal: "Family member",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "Leslie Alexander updated her",
-      innerVal: "Account Type",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "John Smith removed Mark Fleix from",
-      innerVal: "Family member",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "Leslie Alexander updated her",
-      innerVal: "Account Type",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "John Smith removed Mark Fleix from",
-      innerVal: "Family member",
-      date: "3 October 2:45 PM",
-    },
-  ];
 
   return (
     <div className="invitation">
