@@ -1,0 +1,51 @@
+.activities {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 1px;
+}
+.activities-header {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.header-button {
+  align-items: flex-end;
+}
+.activities-content {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.content-logo {
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.upper-content {
+  padding: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textInsideUpperContent {
+  color: #f4981f;
+  margin-left: 5px;
+  padding-left: 2px;
+}
+
+.lower-content {
+  padding-left: 5px;
+  color: #d2d3d4;
+}
