@@ -52,7 +52,7 @@ const Family = () => {
           <SearchIcon sx={{ p: "4px" }} />
           <Button
             variant="contained"
-            sx={{
+            style={{
               backgroundColor: "#2f621b",
               color: "white !important",
               textTransform: "capitalize",
@@ -101,7 +101,7 @@ const Family = () => {
         <Box sx={{ display: "block", padding: "8px" }}>
           <Button
             variant="contained"
-            sx={{
+            style={{
               backgroundColor: "white",
               color: "inherit",
               fontSize: "8px",
@@ -152,7 +152,7 @@ const Family = () => {
           <Box sx={{ display: "block", padding: "8px" }}>
             <Button
               variant="contained"
-              sx={{
+              style={{
                 backgroundColor: "#cad7f5",
                 color: "inherit",
                 fontSize: "8px",

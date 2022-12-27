@@ -42,7 +42,7 @@ const Card = () => {
           marginTop: 15,
         }}
       >
-        <Checkbox defaultChecked size="small" />
+        <Checkbox defaultChecked size="small" style={{ color: "orange" }} />
         <Typography
           variant="h6"
           noWrap

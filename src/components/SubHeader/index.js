@@ -65,7 +65,7 @@ const SubHeader = () => {
       >
         <Button
           variant="contained"
-          sx={{
+          style={{
             backgroundColor: "#232e3e",
             color: "white !important",
             textTransform: "capitalize",
