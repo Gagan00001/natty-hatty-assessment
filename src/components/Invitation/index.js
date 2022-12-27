@@ -23,10 +23,6 @@ function Invitation() {
       val: "have invited johnsmith@gmail.com to become family member",
       innerVal: "You",
     },
-    {
-      val: "have invited johnsmith@gmail.com to become family member",
-      innerVal: "You",
-    },
   ];
 
   return (

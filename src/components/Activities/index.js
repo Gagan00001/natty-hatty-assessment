@@ -27,26 +27,26 @@ const Activities = () => {
       innerVal: "Family member",
       date: "3 October 2:45 PM",
     },
-    {
-      val: "Leslie Alexander updated her",
-      innerVal: "Account Type",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "John Smith removed Mark from",
-      innerVal: "Family member",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "Leslie Alexander updated her",
-      innerVal: "Account Type",
-      date: "3 October 2:45 PM",
-    },
-    {
-      val: "John Smith removed Mark from",
-      innerVal: "Family member",
-      date: "3 October 2:45 PM",
-    },
+    // {
+    //   val: "Leslie Alexander updated her",
+    //   innerVal: "Account Type",
+    //   date: "3 October 2:45 PM",
+    // },
+    // {
+    //   val: "John Smith removed Mark from",
+    //   innerVal: "Family member",
+    //   date: "3 October 2:45 PM",
+    // },
+    // {
+    //   val: "Leslie Alexander updated her",
+    //   innerVal: "Account Type",
+    //   date: "3 October 2:45 PM",
+    // },
+    // {
+    //   val: "John Smith removed Mark from",
+    //   innerVal: "Family member",
+    //   date: "3 October 2:45 PM",
+    // },
   ];
 
   return (
