@@ -1,7 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import Typography from "@mui/material/Typography";
+
 import { SentPanel, RecievedPanel } from "./panel";
 import "./invitation.scss";
-import { Typography } from "@mui/material";
 
 function Invitation() {
   const [active, setActive] = useState("sent");

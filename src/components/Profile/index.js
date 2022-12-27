@@ -1,6 +1,11 @@
-import { Avatar, Badge, Button, Typography } from "@mui/material";
-import { Box } from "@mui/system";
 import React from "react";
+
+import Badge from "@mui/material/Badge";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Avatar from "@mui/material/Avatar";
+import Typography from "@mui/material/Typography";
+
 import TextInput from "./textInput";
 
 const ProfileDetails = () => {

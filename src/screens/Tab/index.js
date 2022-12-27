@@ -1,7 +1,6 @@
-import { Box } from "@mui/system";
 import React from "react";
-import Activities from "../../components/Activities";
-import BankAccounts from "../../components/BankAccounts";
+import Box from "@mui/system/Box";
+
 import Family from "../../components/Family";
 import ProfileDetails from "../../components/Profile";
 

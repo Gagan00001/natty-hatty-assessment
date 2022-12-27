@@ -1,10 +1,12 @@
 import React from "react";
-import Family from "../../components/Family";
+
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
+
+import Family from "../../components/Family";
 import Activities from "../../components/Activities";
 import Invitation from "../../components/Invitation";
 

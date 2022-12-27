@@ -1,5 +1,8 @@
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+
 import logo from "../../logo.svg";
-import { Box, Button, Typography } from "@mui/material";
 import "./activities.scss";
 
 const Activities = () => {

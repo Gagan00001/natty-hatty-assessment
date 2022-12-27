@@ -1,7 +1,10 @@
-import { Button, Checkbox, Typography } from "@mui/material";
-import { Box } from "@mui/system";
-
 import React from "react";
+
+import Button from "@mui/material/Button";
+import Checkbox from "@mui/material/Checkbox";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+
 import TextInput from "../Profile/textInput";
 
 const Card = () => {

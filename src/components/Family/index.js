@@ -1,6 +1,10 @@
 import React from "react";
-import { Box, Container } from "@mui/system";
-import { Avatar, Button, Typography } from "@mui/material";
+
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/system/Box";
+import Container from "@mui/system/Container";
 import SearchIcon from "@mui/icons-material/Search";
 
 const FamilyDetails = [

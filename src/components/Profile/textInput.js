@@ -1,5 +1,6 @@
-import { TextField, Typography } from "@mui/material";
 import React from "react";
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
 
 const TextInput = ({
   label = "",

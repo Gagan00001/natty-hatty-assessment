@@ -1,6 +1,8 @@
-import { Avatar, Typography } from "@mui/material";
-import { Box, Container } from "@mui/system";
 import React from "react";
+
+import Container from "@mui/system/Container";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 const BankAccounts = () => {
   return (
