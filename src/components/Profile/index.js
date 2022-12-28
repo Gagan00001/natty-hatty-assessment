@@ -123,4 +123,92 @@ const ProfileDetails = () => {
   );
 };
 
-export default ProfileDetails;
+const ProfileSubDetails = () => {
+  return (
+    <Box sx={{ padding: "20px" }}>
+      <div
+        style={{
+          flexDirection: "row",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-around",
+          width: 230,
+        }}
+      >
+        <div>
+          <Badge
+            overlap="circular"
+            anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+            badgeContent={
+              <Avatar
+                sx={{ height: 20, width: 20, backgroundColor: "#292" }}
+              ></Avatar>
+            }
+          >
+            <Avatar sx={{ width: 64, height: 64 }} />
+          </Badge>
+        </div>
+        <div
+          style={{ flexDirection: "column", display: "flex", marginRight: 30 }}
+        >
+          <Typography style={{ fontWeight: 600 }}>John Smith</Typography>
+          <Typography fontSize={8}>Main St. Farmington, CA 123</Typography>
+        </div>
+      </div>
+      <Box sx={{ display: "flex", flexDirection: "column" }}>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <TextInput label="First Name" />
+          <TextInput label="Last Name" />
+          <TextInput label="Graduation Year" />
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <TextInput label="Phone" />
+          <TextInput label="Date of Birth" />
+          <TextInput label="Email" />
+        </div>
+      </Box>
+      <Box sx={{ marginTop: "14px" }}>
+        <Button
+          variant="contained"
+          size="small"
+          style={{
+            height: 20,
+            width: 96,
+            backgroundColor: "#35621c",
+            fontSize: 7,
+          }}
+        >
+          Save Changes
+        </Button>
+        <Button
+          variant="contained"
+          size="small"
+          style={{
+            height: 20,
+            width: 96,
+            backgroundColor: "#232e3e",
+            fontSize: 7,
+            marginLeft: "10px",
+          }}
+        >
+          Change Password
+        </Button>
+        <Button
+          variant="contained"
+          size="small"
+          style={{
+            height: 20,
+            width: 96,
+            backgroundColor: "#e63f36",
+            fontSize: 7,
+            marginLeft: "10px",
+          }}
+        >
+          Leave Family
+        </Button>
+      </Box>
+    </Box>
+  );
+};
+
+export { ProfileDetails, ProfileSubDetails };

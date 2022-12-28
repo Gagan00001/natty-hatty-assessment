@@ -9,6 +9,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import Family from "../../components/Family";
 import Activities from "../../components/Activities";
 import Invitation from "../../components/Invitation";
+import BankAccounts from "../../components/BankAccounts";
 
 const MobileView = () => {
   const [value, setValue] = React.useState("1");
@@ -62,7 +63,9 @@ const MobileView = () => {
             <Family />
           </div>
         </TabPanel>
-        <TabPanel value="2">Algorithms</TabPanel>
+        <TabPanel value="2">
+          <BankAccounts style={{ flexDirection: "column" }} />
+        </TabPanel>
         <TabPanel value="3">
           <Activities />
         </TabPanel>

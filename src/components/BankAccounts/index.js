@@ -4,9 +4,9 @@ import Container from "@mui/system/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-const BankAccounts = () => {
+const BankAccounts = ({ style = {} }) => {
   return (
-    <div className="form-background family-details">
+    <div className="family-details">
       <Container maxWidth="xl" sx={{ marginBottom: "12px" }}>
         <Box
           sx={{
@@ -37,6 +37,7 @@ const BankAccounts = () => {
               display: "flex",
               flexWrap: "noWrap",
               justifyContent: "space-between !important",
+              ...style,
             }}
           >
             <Box

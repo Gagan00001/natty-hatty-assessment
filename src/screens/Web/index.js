@@ -4,7 +4,7 @@ import Activities from "../../components/Activities";
 import BankAccounts from "../../components/BankAccounts";
 import BillingAddress from "../../components/Billing Address";
 import Family from "../../components/Family";
-import ProfileDetails from "../../components/Profile";
+import { ProfileDetails } from "../../components/Profile";
 import SubHeader from "../../components/SubHeader";
 import Invitations from "../../components/Invitation";
 

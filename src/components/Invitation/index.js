@@ -70,11 +70,13 @@ function Invitation() {
       </div>
       <div className="sent-panel-container">
         {sentData &&
-          sentData.map(({ val, innerVal, date }, index) => (
+          sentData.map(({ val, innerVal }, index) => (
             <>
-              {active === "sent" && <SentPanel val={val} innerVal={innerVal} />}
+              {active === "sent" && (
+                <SentPanel val={val} innerVal={innerVal} index={index} />
+              )}
               {active === "recieved" && (
-                <RecievedPanel val={val} innerVal={innerVal} />
+                <RecievedPanel val={val} innerVal={innerVal} index={index} />
               )}
             </>
           ))}

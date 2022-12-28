@@ -5,9 +5,9 @@ import Button from "@mui/material/Button";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 
-const SentPanel = ({ val, innerVal }) => {
+const SentPanel = ({ val, innerVal, index }) => {
   return (
-    <Box className="main-content main-content-container">
+    <Box className="main-content main-content-container" key={index}>
       <Box className="upper-content">
         <Typography component="span" className="textInsideUpperContent">
           {innerVal}&nbsp;
@@ -18,9 +18,9 @@ const SentPanel = ({ val, innerVal }) => {
   );
 };
 
-const RecievedPanel = ({ val, innerVal }) => {
+const RecievedPanel = ({ val, innerVal, index }) => {
   return (
-    <div className="recieved-main-content main-content-container">
+    <Box className="main-content main-content-container" key={index}>
       <Avatar sx={{ marginRight: "12px" }} />
       <Box className="upper-content" style={{}}>
         <Typography component="span" className="textInsideUpperContent">
@@ -58,7 +58,7 @@ const RecievedPanel = ({ val, innerVal }) => {
           x
         </Button>
       </div>
-    </div>
+    </Box>
   );
 };
 
